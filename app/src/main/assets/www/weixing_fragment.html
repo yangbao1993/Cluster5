@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html ng-app="ionicApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="https://cdn.bootcss.com/ionic/1.3.2/css/ionic.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/ionic/1.3.2/js/ionic.bundle.min.js"></script>
+
+    <script type="text/javascript">
+        angular.module('ionicApp', ['ionic']);
+        </script>
+    <style type="text/css">
+        body {
+          cursor: url('http://www.runoob.com/try/demo_source/finger.png'), auto;
+        }
+        .box{
+	       display:-webkit-box;
+	       -webkit-box-orient:horizontal;
+        }
+        .left{
+           width: 55%;
+        }
+        .right{
+	       float: right;
+        }
+        .left1{
+           width: 70%;
+        }
+        .left2{
+           width: 80%;
+        }
+
+        .imc-scroll {
+            width: 100%;
+            height: 50px;
+            white-space: nowrap;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            overflow-scrolling: touch;
+           -webkit-overflow-scrolling: touch /*iOS 滚动弹簧效果 */
+        }
+    </style>
+</head>
+<body>
+
+
+<p>
+    <button class="button button-block button-assertive">包月会员每月可免费浏览及下载100幅影像</button>
+</p>
+
+<div  class="list-borderless" >
+    <div class="box">
+        <div class="left2">
+           <strong style="font-size:15px">&nbsp&nbsp&nbsp&nbsp龙翔广场</strong>
+        </div>
+        <div class="right">
+           <button class="button  button-clear icon-right ion-chevron-right"style="font-size:15px;color:#C0C0C0;">简介</button>
+        </div>
+    </div>
+
+    <div style="color:#C0C0C0;font-size:10px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp关注度：8.7  评论数：1183</div>
+</div>
+
+<div class="box list-borderless">
+    <div class="left list-borderless" >
+        <a class="item item-icon-left  tabs-secondary" href=" ">
+            <i class="icon ion-chatbox-working"></i>1183热评
+        </a>
+    </div>
+
+    <div class=" list-borderless">
+        <button class="button "style="background-color:#FFFFFF">
+            <i class="icon icon ion-heart"></i>
+        </button>
+        <button class="button "style="background-color:#FFFFFF">
+            <i class="icon ion-archive"></i>
+        </button>
+        <button class="button "style="background-color:#FFFFFF">
+            <i class="icon ion-share"></i>
+        </button>
+    </div>
+</div>
+<!--
+         <div class="list-borderless">
+            <i class="icon ion-heart"></i>
+            <i class="icon ion-archive"></i>
+            <i class="icon ion-share"></i>
+         </div>-->
+
+
+<div  class="list-borderless" >
+    <div class="box">
+        <div class="left1">
+            <strong style="font-size:15px">&nbsp&nbsp&nbsp&nbsp选期</strong>
+        </div>
+        <div class="right">
+            <button class="button  button-clear icon-right ion-chevron-right"style="font-size:15px;color:#C0C0C0;">会员看全集</button>
+        </div>
+    </div>
+</div>
+
+<div class="imc-scroll">
+    <div>
+        <a class="button icon-right  ">2015-09-09</a>
+        <a class="button icon-right  ">2016-01-03</a>
+        <a class="button icon-right  ">2015-06-09</a>
+        <a class="button icon-right  ">2015-09-09</a>
+        <a class="button icon-right  ">2016-01-03</a>
+        <a class="button icon-right  ">2015-06-09</a>
+        <a class="button icon-right  ">2015-09-09</a>
+        <a class="button icon-right  ">2016-01-03</a>
+        <a class="button icon-right  ">2015-06-09</a>
+        <a class="button icon-right  ">2015-09-09</a>
+        <a class="button icon-right  ">2016-01-03</a>
+    </div>
+</div>
+<div class="list-borderless">
+    <div>
+        <strong tyle="font-size:15px">&nbsp&nbsp&nbsp&nbsp评论</strong>
+    </div>
+    <div class="box">
+        <div class="left">
+        <a class="item item-avatar" href="#" style="width:200px">
+            <img src="http://www.runoob.com/try/demo_source/venkman.jpg">
+            <p style="color:blue" class="item-icon-right">用户名&nbsp&nbsp
+                <img width="20" height="20" src="http://www.runoob.com/try/demo_source/venkman.jpg">
+            </p>
+            <p style="color:#C0C0C0">3天前</p>
+        </a>
+        </div>
+       <div class="right">
+
+            <button class="button "style="background-color:#FFFFFF">
+              <i class="icon ion-thumbsup">124</i>
+            </button>
+            <button class="button "style="background-color:#FFFFFF">
+                <i class="icon ion-chatbubble-working"></i>
+            </button>
+            <button class="button "style="background-color:#FFFFFF">
+              <i class="icon ion-android-more-vertical"></i>
+            </button>
+       </div>
+    </div>
+        <p>这次看起来不错</p>
+
+</div>
+
+</body>
+</html>

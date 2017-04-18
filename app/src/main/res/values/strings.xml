@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cluster</string>
+    <string name="title_activity_marker_cluster_demo">点聚合功能</string>
+    <string name="demo_name_basemap">基本地图功能</string>
+    <string name="tab_menu_record">录制</string>
+    <string name="title_markercluster_desc">\t\t缩小地图，以显示标注物的聚合点 \n\t\t放大地图，显示Marker点 \n</string>
+    <style name="AppNoBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+</resources>
